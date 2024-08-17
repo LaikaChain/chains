@@ -415,6 +415,14 @@
     "format": "png"
   }]
 }, {
+  "name": "bless",
+  "icons": [{
+    "url": "ipfs://QmUP7NPPrCe6N6k8RQh4KuSBU2xMvbyo6enCtzyE5v4bmQ",
+    "width": 600,
+    "height": 600,
+    "format": "png"
+  }]
+}, {
   "name": "SaitaBlockChain(SBC)",
   "icons": [{
     "url": "ipfs://QmVFWTqfqnMXbiPKpDFucE9QSQ1SVsUWs4HxBqRGjgQCbu",
@@ -604,6 +612,14 @@
     "url": "ipfs://QmTPbbhH4CkQiQWm4JUh3J9o5w79vXjFZaMBW4DKNuSVU3",
     "width": 512,
     "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "nibiru",
+  "icons": [{
+    "url": "ipfs://QmZ4ujZagoLozYSypp7uJESgExJhGGJTmmpT6AoDV8GzZW",
+    "width": 256,
+    "height": 256,
     "format": "png"
   }]
 }, {
@@ -823,6 +839,14 @@
     "format": "svg"
   }]
 }, {
+  "name": "btcprotocol",
+  "icons": [{
+    "url": "ipfs://QmYgFtJjxUgUDr3L9fsXvgzUTanrzcNj2e6RJ8VmkwpcuB",
+    "width": 792,
+    "height": 792,
+    "format": "png"
+  }]
+}, {
   "name": "zkevm",
   "icons": [{
     "url": "ipfs://QmNmJZkQgx9RcFLS3rvxQTVYcPfyAFPr667keHTUxB9PDv",
@@ -933,6 +957,14 @@
     "width": 312,
     "height": 312,
     "format": "png"
+  }]
+}, {
+  "name": "polynomial",
+  "icons": [{
+    "url": "ipfs://bafybeiadb4izxxptk3wy34cam3k2rxgqb2vrzxtltqnp3vwdvd2igwoghu",
+    "width": 500,
+    "height": 500,
+    "format": "jpg"
   }]
 }, {
   "name": "gobbl",
@@ -1071,6 +1103,14 @@
     "format": "svg"
   }]
 }, {
+  "name": "emctest",
+  "icons": [{
+    "url": "ipfs://QmUDymyXZS9eUn5p3tyDyxhD8GMB91HUBAAvySwENfPevh",
+    "width": 502,
+    "height": 579,
+    "format": "png"
+  }]
+}, {
   "name": "hybrid",
   "icons": [{
     "url": "ipfs://QmQDNdhPvCrrijEKC3G9Px5if2CHgdxq7Q2Pg66cy9xwbF",
@@ -1084,6 +1124,14 @@
     "url": "ipfs://Qmag2hr5DQghRzKPN3oUFBkjWzqd5CndQzZeb5LfoiMCXf",
     "width": 160,
     "height": 160,
+    "format": "png"
+  }]
+}, {
+  "name": "aleph-zero",
+  "icons": [{
+    "url": "ipfs://QmUmw7yJDdkTV6SNp5PDfMLe5LWMfUo6vyQbh7fdhTfGDH",
+    "width": 200,
+    "height": 200,
     "format": "png"
   }]
 }, {
@@ -1567,6 +1615,14 @@
     "format": "png"
   }]
 }, {
+  "name": "sophon-testnet",
+  "icons": [{
+    "url": "ipfs://QmVJWQ1f1vuQFdajLnqgbV3udPJKK7yC4comWwjT6NUinQ",
+    "width": 128,
+    "height": 64,
+    "format": "svg"
+  }]
+}, {
   "name": "ramestta",
   "icons": [{
     "url": "ipfs://QmUtnYVBeDMKudGq2Wue25pqYfQEdgbyvzTzoGPMqRGMJZ",
@@ -1783,6 +1839,14 @@
     "format": "png"
   }]
 }, {
+  "name": "apexfusion",
+  "icons": [{
+    "url": "ipfs://QmSnqLVwFyeX9AZDvBKVS7diDf2Xb7m9nDcamGgpCMhL3d",
+    "width": 410,
+    "height": 410,
+    "format": "svg"
+  }]
+}, {
   "name": "movoscan",
   "icons": [{
     "url": "ipfs://QmdFJMdnTvu4adiMERMP7B5ZZDwgiPmU3kU1qrUFdvHmUY",
@@ -1813,6 +1877,14 @@
     "width": 500,
     "height": 500,
     "format": "png"
+  }]
+}, {
+  "name": "polynomialSepolia",
+  "icons": [{
+    "url": "ipfs://bafybeidr3h4onsdhjojrck7tqysrmnduzhgzdhf3l5uqake6w6474vvuha",
+    "width": 500,
+    "height": 500,
+    "format": "jpg"
   }]
 }, {
   "name": "nautilus",
@@ -2089,7 +2161,7 @@
 }, {
   "name": "inoai",
   "icons": [{
-    "url": "ipfs://QmdP8zAZEwUbf3pt8t9Ykho866ni5AMgutvkn3cBsV8gKG",
+    "url": "ipfs://QmdiEBREiSP9TBHqxV8Ap3kehvBktBWFCpXs3mkC4e18zM",
     "width": 500,
     "height": 500,
     "format": "png"
@@ -2727,6 +2799,14 @@
     "format": "png"
   }]
 }, {
+  "name": "curtis",
+  "icons": [{
+    "url": "ipfs://QmTqiPnYZx6ZyPPbtsuh8VvvoH6DSCJGjTUgtTN9X8NScP",
+    "width": 1200,
+    "height": 1200,
+    "format": "png"
+  }]
+}, {
   "name": "ludan",
   "icons": [{
     "url": "ipfs://bafkreigzeanzqgxrzzep45t776ovbwi242poqxbryuu2go5eedeuwwcsay",
@@ -3076,6 +3156,14 @@
     "url": "ipfs://QmfJ1Qxpzi6CSLeFeWY1Bwe435CpT5za5WfrLUE7vNzZfy",
     "width": 512,
     "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "cratd2c-testnet",
+  "icons": [{
+    "url": "ipfs://bafkreiczmtj47hwgmmtsy3xylhswu4q6rphpt42hznv37shjiaxsx3uqde",
+    "width": 128,
+    "height": 128,
     "format": "png"
   }]
 }, {
@@ -3645,6 +3733,14 @@
     "width": 800,
     "height": 800,
     "format": "svg"
+  }]
+}, {
+  "name": "EsaCoins",
+  "icons": [{
+    "url": "ipfs://QmRZ1LHedFNs3pXhxcjhbQtHLmMzDhioKJ6ZsRwHNpbtiF",
+    "width": 1008,
+    "height": 1008,
+    "format": "png"
   }]
 }, {
   "name": "kaibascan",
@@ -4583,6 +4679,14 @@
     "format": "png"
   }]
 }, {
+  "name": "assetchain",
+  "icons": [{
+    "url": "ipfs://QmXc4bxuyWvQFqjuunXmvZZs1AwGChyY7sGYK6tgCkp3nJ",
+    "width": 1500,
+    "height": 1500,
+    "format": "png"
+  }]
+}, {
   "name": "plinga",
   "icons": [{
     "url": "ipfs://bafybeibpvlod5nyev6wyuvp6pbestmgvru3ovbadsul32odpno26xwld6y",
@@ -5143,6 +5247,14 @@
     "format": "png"
   }]
 }, {
+  "name": "changchain",
+  "icons": [{
+    "url": "ipfs://QmbEytMCh2xFr7q87HjthX4K2MKmjfHih2mqS42tqTZoMy",
+    "width": 1024,
+    "height": 1024,
+    "format": "jpg"
+  }]
+}, {
   "name": "stn",
   "icons": [{
     "url": "ipfs://QmRgZVpjik4cH3Sb6wLRpdnfv9kiMEZ8fugfkzTgk3bpRW",
@@ -5532,6 +5644,14 @@
     "url": "ipfs://QmSXLXqyr2H6Ja5XrmznXbWTEvF2gFaL8RXNXgyLmDHjAF",
     "width": 896,
     "height": 690,
+    "format": "png"
+  }]
+}, {
+  "name": "vcity",
+  "icons": [{
+    "url": "ipfs://QmXBNp75r6DUCB99vknr5B1hHQFMCc1c2wE3qNbYkuss9C",
+    "width": 100,
+    "height": 100,
     "format": "png"
   }]
 }, {
