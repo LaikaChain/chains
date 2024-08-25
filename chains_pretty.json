@@ -4280,6 +4280,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "Ethernity Testnet",
+  "chain": "Ethernity",
+  "rpc": ["https://testnet.ethernitychain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ethernity.io",
+  "shortName": "ethernity-testnet",
+  "chainId": 233,
+  "networkId": 233,
+  "explorers": [{
+    "name": "Ethernity Testnet Explorer",
+    "url": "https://testnet.ernscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "ProtoJumbo Testnet",
   "chain": "Jumbo",
   "rpc": ["https://testnode.jumbochain.org"],
@@ -8681,6 +8700,21 @@
     "icon": "5ireChain"
   }]
 }, {
+  "name": "Bifrost Polkadot Mainnet",
+  "chain": "Bifrost",
+  "rpc": ["https://hk.p.bifrost-rpc.liebi.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "infoURL": "https://bifrost.io/",
+  "shortName": "bnc",
+  "chainId": 996,
+  "networkId": 996,
+  "icon": "bifrost-polkadot"
+}, {
   "name": "5ireChain Thunder",
   "chain": "5ireChain Testnet",
   "rpc": ["https://rpc-testnet.5ire.network"],
@@ -10031,6 +10065,21 @@
     "standard": "EIP3091"
   }],
   "status": "active"
+}, {
+  "name": "Cycle Network Testnet Cuttlefish",
+  "chain": "ETH",
+  "rpc": ["https://cuttlefish-rpc-testnet.cyclenetwork.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cyclenetwork.io/",
+  "shortName": "cyclec",
+  "chainId": 1228,
+  "networkId": 1228,
+  "icon": "cycle"
 }, {
   "name": "Exzo Network Mainnet",
   "chain": "EXZO",
@@ -16256,14 +16305,14 @@
     "bridges": []
   }
 }, {
-  "name": "Tobe Chain",
+  "name": "Tobe Chain Testnet",
   "chain": "TBC",
   "icon": "tobe",
-  "rpc": ["https://rpc.tobescan.com"],
-  "faucets": [],
+  "rpc": ["https://rpc-testnet.tobescan.com"],
+  "faucets": ["https://faucet.tobescan.com/faucet"],
   "nativeCurrency": {
     "name": "Tobe Coin",
-    "symbol": "TBC",
+    "symbol": "TOBE",
     "decimals": 18
   },
   "infoURL": "https://tobechain.net",
@@ -16271,8 +16320,8 @@
   "chainId": 4080,
   "networkId": 4080,
   "explorers": [{
-    "name": "tobescan",
-    "url": "https://tobescan.com",
+    "name": "tobescan testnet",
+    "url": "https://testnet.tobescan.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -18466,13 +18515,13 @@
     }]
   }
 }, {
-  "name": "EdgaMatrix Chain",
+  "name": "Edge Matrix Chain",
   "chain": "EMC",
   "icon": "emc",
   "rpc": ["https://rpc1-mainnet.emc.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "EdgaMatrix Chain Token",
+    "name": "Edge Matrix Chain Token",
     "symbol": "EMC",
     "decimals": 18
   },
@@ -21500,6 +21549,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "UXER TESTNET NETWORK",
+  "chain": "UXER",
+  "rpc": ["https://dev-testnet.uxer.network", "https://data-cloud-testnet.uxer.network"],
+  "faucets": ["https://faucet.uxer.network"],
+  "nativeCurrency": {
+    "name": "UXER",
+    "symbol": "tUXER",
+    "decimals": 18
+  },
+  "infoURL": "https://uxer.network",
+  "shortName": "uxer",
+  "chainId": 9966,
+  "networkId": 9966,
+  "slip44": 1,
+  "icon": "uxer",
+  "explorers": [{
+    "name": "UXER TESTNET EXPLORER",
+    "icon": "uxer",
+    "url": "https://testnet.uxer.network",
+    "standard": "none"
+  }]
+}, {
   "name": "Mind Smart Chain Testnet",
   "chain": "tMIND",
   "icon": "mindchain",
@@ -24391,6 +24462,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Lestnet",
+  "chain": "LETH",
+  "rpc": ["https://service.lestnet.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lestnet Ether",
+    "symbol": "LETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lestnet.org",
+  "shortName": "leth",
+  "chainId": 21363,
+  "networkId": 21363,
+  "icon": "lestnet",
+  "explorers": [{
+    "name": "Lestnet Explorer",
+    "url": "https://explore.lestnet.org",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "omChain Mainnet",
   "chain": "OML",
   "icon": "omlira",
@@ -24838,6 +24930,46 @@
     "name": "polkadotjs",
     "url": "https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet.dev.svcs.ferrumnetwork.io#/explorer",
     "standard": "none"
+  }]
+}, {
+  "name": "DucatusX Testnet",
+  "chain": "DUCX",
+  "rpc": ["https://ducx-testnet-node1.rocknblock.io", "https://ducx-testnet-node2.rocknblock.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DUCX",
+    "symbol": "DUCX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ducatuscoins.com/ducatusx",
+  "shortName": "ducatusx-testnet",
+  "chainId": 26482,
+  "networkId": 26482,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer-testnet.ducatusx.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "DucatusX",
+  "chain": "DUCX",
+  "rpc": ["https://ducx-mainnet-node1.rocknblock.io", "https://ducx-mainnet-node2.rocknblock.io", "https://ducx-mainnet-node3.rocknblock.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DUCX",
+    "symbol": "DUCX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ducatuscoins.com/ducatusx",
+  "shortName": "ducatusx",
+  "chainId": 26483,
+  "networkId": 26483,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer.ducatusx.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Hertz Network Mainnet",
@@ -27461,6 +27593,33 @@
     }]
   }
 }, {
+  "name": "Lumoz Quidditch Testnet",
+  "chain": "ETH",
+  "rpc": ["https://quidditch-rpc.lumoz.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lumoz Quidditch Testnet Token",
+    "symbol": "MOZ",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://lumoz.org",
+  "shortName": "Lumoz-Quidditch-Testnet",
+  "chainId": 58680,
+  "networkId": 58680,
+  "slip44": 1,
+  "icon": "opside-new",
+  "explorers": [{
+    "name": "LumozQuidditchTestnetInfo",
+    "url": "https://quidditch.lumoz.info",
+    "icon": "opside-new",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Linea Goerli",
   "title": "Linea Goerli Testnet",
   "chain": "ETH",
@@ -29858,13 +30017,13 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "EdgaMatrix Chain Testnet",
+  "name": "Edge Matrix Chain Testnet",
   "chain": "EMC Testnet",
   "icon": "emctest",
   "rpc": ["https://rpc1-testnet.emc.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "EdgaMatrix Chain Token",
+    "name": "Edge Matrix Chain Token",
     "symbol": "EMC",
     "decimals": 18
   },
@@ -31056,6 +31215,23 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Fair Testnet",
+  "chain": "FAIR",
+  "rpc": ["https://rpc-testnet.xfair.ai", "wss://rpc-testnet.xfair.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FAIR",
+    "symbol": "FAIR",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://xfair.ai",
+  "shortName": "fair",
+  "chainId": 171000,
+  "networkId": 171000
+}, {
   "name": "Chronicle - Lit Protocol Testnet",
   "chain": "LPC",
   "icon": "lit",
@@ -31519,6 +31695,26 @@
   "explorers": [{
     "name": "PlatON explorer",
     "url": "https://scan.platon.network",
+    "standard": "none"
+  }]
+}, {
+  "name": "Litentry",
+  "chain": "Litentry",
+  "rpc": ["https://rpc.litentry-parachain.litentry.io", "wss://rpc.litentry-parachain.litentry.io", "https://litentry-rpc.dwellir.com", "wss://litentry-rpc.dwellir.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Litentry",
+    "symbol": "LIT",
+    "decimals": 18
+  },
+  "infoURL": "https://litentry.com",
+  "shortName": "litentry",
+  "chainId": 212013,
+  "networkId": 212013,
+  "icon": "litentry",
+  "explorers": [{
+    "name": "litentry statescan",
+    "url": "https://litentry.statescan.io",
     "standard": "none"
   }]
 }, {
@@ -35490,6 +35686,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Fluence",
+  "chain": "Fluence",
+  "rpc": ["https://rpc.mainnet.fluence.dev/", "wss://ws.mainnet.fluence.dev/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FLT",
+    "symbol": "FLT",
+    "decimals": 18
+  },
+  "infoURL": "https://fluence.network/",
+  "shortName": "fluence",
+  "chainId": 9999999,
+  "networkId": 9999999,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.mainnet.fluence.dev",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}, {
   "name": "Plian Testnet Subchain 1",
   "chain": "Plian",
   "rpc": ["https://testnet.plian.io/child_test"],
@@ -36213,6 +36432,30 @@
   "slip44": 1,
   "explorers": []
 }, {
+  "name": "Toliman Suave Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.toliman.suave.flashbots.net"],
+  "faucets": ["https://faucet.toliman.suave.flashbots.net"],
+  "nativeCurrency": {
+    "name": "SUAVE Toliman Eth",
+    "symbol": "TEEth",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://suave-alpha.flashbots.net/toliman",
+  "shortName": "suave-toliman",
+  "chainId": 33626250,
+  "networkId": 33626250,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer.toliman.suave.flashbots.net",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Joys Digital Mainnet",
   "chain": "JOYS",
   "rpc": ["https://node.joys.digital"],
@@ -36290,6 +36533,29 @@
     "url": "http://174.138.9.169:3006/?network=maistesntet",
     "standard": "none"
   }]
+}, {
+  "name": "Fluence Testnet",
+  "chain": "Fluence Testnet",
+  "rpc": ["https://rpc.testnet.fluence.dev/", "wss://ws.testnet.fluence.dev/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tFLT",
+    "symbol": "tFLT",
+    "decimals": 18
+  },
+  "infoURL": "https://fluence.network/",
+  "shortName": "fluence-testnet",
+  "chainId": 52164803,
+  "networkId": 52164803,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.testnet.fluence.dev",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
 }, {
   "name": "Aquachain",
   "chain": "AQUA",

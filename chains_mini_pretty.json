@@ -2729,6 +2729,19 @@
   "faucets": [],
   "infoURL": "https://swapdex.network/"
 }, {
+  "name": "Ethernity Testnet",
+  "chainId": 233,
+  "shortName": "ethernity-testnet",
+  "networkId": 233,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.ethernitychain.io"],
+  "faucets": [],
+  "infoURL": "https://www.ethernity.io"
+}, {
   "name": "ProtoJumbo Testnet",
   "chainId": 234,
   "shortName": "ProtoJumbo",
@@ -5394,6 +5407,19 @@
   "faucets": [],
   "infoURL": "https://5ire.org"
 }, {
+  "name": "Bifrost Polkadot Mainnet",
+  "chainId": 996,
+  "shortName": "bnc",
+  "networkId": 996,
+  "nativeCurrency": {
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "rpc": ["https://hk.p.bifrost-rpc.liebi.com"],
+  "faucets": [],
+  "infoURL": "https://bifrost.io/"
+}, {
   "name": "5ireChain Thunder",
   "chainId": 997,
   "shortName": "T5ire",
@@ -6251,6 +6277,19 @@
   "rpc": ["https://testnet-chain.btcprotocol.io/"],
   "faucets": [],
   "infoURL": "https://btcprotocol.io/"
+}, {
+  "name": "Cycle Network Testnet Cuttlefish",
+  "chainId": 1228,
+  "shortName": "cyclec",
+  "networkId": 1228,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://cuttlefish-rpc-testnet.cyclenetwork.io"],
+  "faucets": [],
+  "infoURL": "https://www.cyclenetwork.io/"
 }, {
   "name": "Exzo Network Mainnet",
   "chainId": 1229,
@@ -10100,17 +10139,17 @@
   "faucets": [],
   "infoURL": ""
 }, {
-  "name": "Tobe Chain",
+  "name": "Tobe Chain Testnet",
   "chainId": 4080,
   "shortName": "tbc",
   "networkId": 4080,
   "nativeCurrency": {
     "name": "Tobe Coin",
-    "symbol": "TBC",
+    "symbol": "TOBE",
     "decimals": 18
   },
-  "rpc": ["https://rpc.tobescan.com"],
-  "faucets": [],
+  "rpc": ["https://rpc-testnet.tobescan.com"],
+  "faucets": ["https://faucet.tobescan.com/faucet"],
   "infoURL": "https://tobechain.net"
 }, {
   "name": "Fastex Chain (Bahamut) Oasis Testnet",
@@ -11439,12 +11478,12 @@
   "faucets": ["https://faucet.cybascan.io"],
   "infoURL": "https://cybria.io"
 }, {
-  "name": "EdgaMatrix Chain",
+  "name": "Edge Matrix Chain",
   "chainId": 6678,
   "shortName": "EMC",
   "networkId": 6678,
   "nativeCurrency": {
-    "name": "EdgaMatrix Chain Token",
+    "name": "Edge Matrix Chain Token",
     "symbol": "EMC",
     "decimals": 18
   },
@@ -13350,6 +13389,19 @@
   "faucets": [],
   "infoURL": "https://espento.network"
 }, {
+  "name": "UXER TESTNET NETWORK",
+  "chainId": 9966,
+  "shortName": "uxer",
+  "networkId": 9966,
+  "nativeCurrency": {
+    "name": "UXER",
+    "symbol": "tUXER",
+    "decimals": 18
+  },
+  "rpc": ["https://dev-testnet.uxer.network", "https://data-cloud-testnet.uxer.network"],
+  "faucets": ["https://faucet.uxer.network"],
+  "infoURL": "https://uxer.network"
+}, {
   "name": "Mind Smart Chain Testnet",
   "chainId": 9977,
   "shortName": "tMIND",
@@ -15105,6 +15157,19 @@
   "faucets": [],
   "infoURL": "https://cennz.net"
 }, {
+  "name": "Lestnet",
+  "chainId": 21363,
+  "shortName": "leth",
+  "networkId": 21363,
+  "nativeCurrency": {
+    "name": "Lestnet Ether",
+    "symbol": "LETH",
+    "decimals": 18
+  },
+  "rpc": ["https://service.lestnet.org"],
+  "faucets": [],
+  "infoURL": "https://lestnet.org"
+}, {
   "name": "omChain Mainnet",
   "chainId": 21816,
   "shortName": "omc",
@@ -15390,6 +15455,32 @@
   "rpc": ["http://testnet.dev.svcs.ferrumnetwork.io:9933"],
   "faucets": ["https://testnet.faucet.ferrumnetwork.io"],
   "infoURL": "https://ferrum.network"
+}, {
+  "name": "DucatusX Testnet",
+  "chainId": 26482,
+  "shortName": "ducatusx-testnet",
+  "networkId": 26482,
+  "nativeCurrency": {
+    "name": "DUCX",
+    "symbol": "DUCX",
+    "decimals": 18
+  },
+  "rpc": ["https://ducx-testnet-node1.rocknblock.io", "https://ducx-testnet-node2.rocknblock.io"],
+  "faucets": [],
+  "infoURL": "https://www.ducatuscoins.com/ducatusx"
+}, {
+  "name": "DucatusX",
+  "chainId": 26483,
+  "shortName": "ducatusx",
+  "networkId": 26483,
+  "nativeCurrency": {
+    "name": "DUCX",
+    "symbol": "DUCX",
+    "decimals": 18
+  },
+  "rpc": ["https://ducx-mainnet-node1.rocknblock.io", "https://ducx-mainnet-node2.rocknblock.io", "https://ducx-mainnet-node3.rocknblock.io"],
+  "faucets": [],
+  "infoURL": "https://www.ducatuscoins.com/ducatusx"
 }, {
   "name": "Hertz Network Mainnet",
   "chainId": 26600,
@@ -16938,6 +17029,19 @@
   "faucets": [],
   "infoURL": "https://publicgoods.network/"
 }, {
+  "name": "Lumoz Quidditch Testnet",
+  "chainId": 58680,
+  "shortName": "Lumoz-Quidditch-Testnet",
+  "networkId": 58680,
+  "nativeCurrency": {
+    "name": "Lumoz Quidditch Testnet Token",
+    "symbol": "MOZ",
+    "decimals": 18
+  },
+  "rpc": ["https://quidditch-rpc.lumoz.org"],
+  "faucets": [],
+  "infoURL": "https://lumoz.org"
+}, {
   "name": "Linea Goerli",
   "chainId": 59140,
   "shortName": "linea-goerli",
@@ -18407,12 +18511,12 @@
   "faucets": ["https://faucet.eliberty.ngo"],
   "infoURL": "https://eliberty.ngo"
 }, {
-  "name": "EdgaMatrix Chain Testnet",
+  "name": "Edge Matrix Chain Testnet",
   "chainId": 99876,
   "shortName": "EMCTestnet",
   "networkId": 99876,
   "nativeCurrency": {
-    "name": "EdgaMatrix Chain Token",
+    "name": "Edge Matrix Chain Token",
     "symbol": "EMC",
     "decimals": 18
   },
@@ -19135,6 +19239,19 @@
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
+  "name": "Fair Testnet",
+  "chainId": 171000,
+  "shortName": "fair",
+  "networkId": 171000,
+  "nativeCurrency": {
+    "name": "FAIR",
+    "symbol": "FAIR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.xfair.ai", "wss://rpc-testnet.xfair.ai"],
+  "faucets": [],
+  "infoURL": "https://xfair.ai"
+}, {
   "name": "Chronicle - Lit Protocol Testnet",
   "chainId": 175177,
   "shortName": "lpc",
@@ -19433,6 +19550,19 @@
   "rpc": ["https://openapi2.platon.network/rpc", "wss://openapi2.platon.network/ws"],
   "faucets": [],
   "infoURL": "https://www.platon.network"
+}, {
+  "name": "Litentry",
+  "chainId": 212013,
+  "shortName": "litentry",
+  "networkId": 212013,
+  "nativeCurrency": {
+    "name": "Litentry",
+    "symbol": "LIT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.litentry-parachain.litentry.io", "wss://rpc.litentry-parachain.litentry.io", "https://litentry-rpc.dwellir.com", "wss://litentry-rpc.dwellir.com"],
+  "faucets": [],
+  "infoURL": "https://litentry.com"
 }, {
   "name": "Mas Mainnet",
   "chainId": 220315,
@@ -21787,6 +21917,19 @@
   "faucets": [],
   "infoURL": "https://xcap.network/"
 }, {
+  "name": "Fluence",
+  "chainId": 9999999,
+  "shortName": "fluence",
+  "networkId": 9999999,
+  "nativeCurrency": {
+    "name": "FLT",
+    "symbol": "FLT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.fluence.dev/", "wss://ws.mainnet.fluence.dev/"],
+  "faucets": [],
+  "infoURL": "https://fluence.network/"
+}, {
   "name": "Plian Testnet Subchain 1",
   "chainId": 10067275,
   "shortName": "plian-testnet-l2",
@@ -22242,6 +22385,19 @@
   "faucets": [],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "Toliman Suave Testnet",
+  "chainId": 33626250,
+  "shortName": "suave-toliman",
+  "networkId": 33626250,
+  "nativeCurrency": {
+    "name": "SUAVE Toliman Eth",
+    "symbol": "TEEth",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.toliman.suave.flashbots.net"],
+  "faucets": ["https://faucet.toliman.suave.flashbots.net"],
+  "infoURL": "https://suave-alpha.flashbots.net/toliman"
+}, {
   "name": "Joys Digital Mainnet",
   "chainId": 35855456,
   "shortName": "JOYS",
@@ -22293,6 +22449,19 @@
   "rpc": ["http://174.138.9.169:9650/ext/bc/VUKSzFZKckx4PoZF9gX5QAqLPxbLzvu1vcssPG5QuodaJtdHT/rpc"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "Fluence Testnet",
+  "chainId": 52164803,
+  "shortName": "fluence-testnet",
+  "networkId": 52164803,
+  "nativeCurrency": {
+    "name": "tFLT",
+    "symbol": "tFLT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.fluence.dev/", "wss://ws.testnet.fluence.dev/"],
+  "faucets": [],
+  "infoURL": "https://fluence.network/"
 }, {
   "name": "Aquachain",
   "chainId": 61717561,
