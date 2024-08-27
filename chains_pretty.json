@@ -11155,6 +11155,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "Story Testnet",
+  "chain": "Story Testnet",
+  "rpc": ["https://testnet.storyrpc.io"],
+  "faucets": ["https://faucet.story.foundation"],
+  "chainId": 1513,
+  "networkId": 1513,
+  "nativeCurrency": {
+    "name": "IP",
+    "symbol": "IP",
+    "decimals": 18
+  },
+  "infoURL": "https://www.story.foundation",
+  "shortName": "Story",
+  "explorers": [{
+    "name": "Story Iliad Network explorer",
+    "url": "https://testnet.storyscan.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Beagle Messaging Chain",
   "chain": "BMC",
   "rpc": ["https://beagle.chat/eth"],
@@ -18966,6 +18985,22 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Nibiru Testnet-1",
+  "chain": "Nibiru",
+  "rpc": ["https://evm-rpc.testnet-1.nibiru.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NIBI",
+    "symbol": "NIBI",
+    "decimals": 18
+  },
+  "infoURL": "https://nibiru.fi",
+  "shortName": "nibiru-testnet-1",
+  "chainId": 7210,
+  "networkId": 7210,
+  "icon": "nibiru",
+  "explorers": []
+}, {
   "name": "Nibiru Devnet-3",
   "chain": "Nibiru",
   "rpc": ["https://evm-rpc.devnet-3.nibiru.fi"],
@@ -18976,7 +19011,7 @@
     "decimals": 18
   },
   "infoURL": "https://nibiru.fi",
-  "shortName": "nibiru",
+  "shortName": "nibiru-devnet-3",
   "chainId": 7222,
   "networkId": 7222,
   "icon": "nibiru",
@@ -27285,7 +27320,7 @@
   "name": "Toronet Testnet",
   "chain": "Toronet",
   "icon": "toronet",
-  "rpc": ["http://testnet.toronet.org/rpc"],
+  "rpc": ["https://testnet.toronet.org/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Toroe",
@@ -30389,6 +30424,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Creditcoin Devnet",
+  "chain": "CTC",
+  "icon": "creditcoin",
+  "rpc": ["https://rpc.cc3-devnet.creditcoin.network"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "nativeCurrency": {
+    "name": "Devnet CTC",
+    "symbol": "devCTC",
+    "decimals": 18
+  },
+  "infoURL": "https://creditcoin.org",
+  "shortName": "ctcdev",
+  "chainId": 102032,
+  "networkId": 102032,
+  "faucets": [],
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://creditcoin-devnet.blockscout.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Crystaleum",
   "chain": "crystal",
   "rpc": ["https://evm.cryptocurrencydevs.org", "https://rpc.crystaleum.org"],
@@ -31228,7 +31289,7 @@
     "name": "EIP155"
   }],
   "infoURL": "https://xfair.ai",
-  "shortName": "fair",
+  "shortName": "fairt",
   "chainId": 171000,
   "networkId": 171000
 }, {
@@ -35912,8 +35973,8 @@
   }],
   "status": "deprecated"
 }, {
-  "name": "NeoX Testnet T4",
-  "chain": "NeoX",
+  "name": "Neo X Testnet T4",
+  "chain": "Neo X",
   "rpc": ["https://testnet.rpc.banelabs.org/"],
   "faucets": [],
   "nativeCurrency": {
@@ -35928,7 +35989,7 @@
   "icon": "neox",
   "explorers": [{
     "name": "neox-scan",
-    "url": "https://testnet.scan.banelabs.org",
+    "url": "https://xt4scan.ngd.network",
     "standard": "EIP3091"
   }],
   "status": "active"
@@ -37444,10 +37505,10 @@
 }, {
   "name": "Sophon Testnet",
   "chain": "Sophon Testnet",
-  "rpc": ["https://rpc.testnet.sophon.xyz/"],
+  "rpc": ["https://rpc.testnet.sophon.xyz", "wss://rpc.testnet.sophon.xyz/ws"],
   "nativeCurrency": {
-    "name": "ETH",
-    "symbol": "ETH",
+    "name": "Sophon",
+    "symbol": "SOPH",
     "decimals": 18
   },
   "faucets": [],
@@ -37456,7 +37517,7 @@
   "chainId": 531050104,
   "networkId": 531050104,
   "explorers": [{
-    "name": "Sophon Testnet",
+    "name": "Sophon Block Explorer",
     "url": "https://explorer.testnet.sophon.xyz",
     "icon": "sophon-testnet",
     "standard": "none"
@@ -37465,7 +37526,7 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [{
-      "url": "https://bridge.zksync.io/"
+      "url": "https://portal.testnet.sophon.xyz/bridge"
     }]
   }
 }, {
@@ -38419,6 +38480,25 @@
   "explorers": [{
     "name": "Alphabet Explorer",
     "url": "https://scan.alphabetnetwork.org",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Thanos Sepolia",
+  "chain": "ETH",
+  "rpc": ["https://rpc.thanos-sepolia.tokamak.network", "wss://rpc.thanos-sepolia.tokamak.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tokamak Network",
+    "symbol": "TON",
+    "decimals": 18
+  },
+  "infoURL": "https://tokamak.network",
+  "shortName": "thanos-sepolia",
+  "chainId": 111551119090,
+  "networkId": 111551119090,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.thanos-sepolia.tokamak.network",
     "standard": "EIP3091"
   }]
 }, {
